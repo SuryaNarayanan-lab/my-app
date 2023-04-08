@@ -13,9 +13,13 @@ const AddUser = (props) => {
     console.log(enteredUsername, enteredAge);
   };
 
-  const usernameChangeHandler = (event) => {
+  function usernameChangeHandler (event){
     setEnteredUsername(event.target.value);
-  };
+  }
+
+  //const usernameChangeHandler = (event) => {
+   // setEnteredUsername(event.target.value);
+ // };//
 
   const ageChangeHandler = (event) => {
     setEnteredAge(event.target.value);
